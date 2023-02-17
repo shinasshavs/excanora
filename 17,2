@@ -1,0 +1,84 @@
+1.odd or even
+
+       Input the number
+
+      Check the number divisible by 2
+
+      If reminder is 0
+
+      Print even, else print odd
+
+      End
+
+2. Factorial
+Declare N and F as integer variable.  
+ Initialize F=1. and I=1
+Enter the value of N. 
+Initialize the for loop, from I to N+1
+For each iteration of the loop, F=F*N  
+End loop  
+
+Print factorial  
+3.Palindrome
+   Ask the user to input a string.
+ Reverse the string.
+ If the reversed string is equal to the original string, then it is a palindrome.
+ Print "Palindrome" if the string is a palindrome, else print "Not palindrome".
+End
+
+4.prime or not
+
+   Set a variable num
+
+   Check num >1
+
+i =2
+
+For i  from 2 to (number/2) 
+
+Print num is not prime
+
+Break the loop
+
+End of loop
+
+Else print num is prime
+
+
+
+
+
+
+x = str(input("Enter a string:"))
+re=x[-1::-1]
+print(re)
+if x==re:
+       print("Palindrome")
+else:
+       print("Not palindrome")
+
+
+num = 11
+
+if num > 1:
+	for i in range(2,int(num/2)):
+
+		if (num % i) == 0:
+			print(num, "is not a prime number")
+			break
+	else:
+		print(num, "is a prime number")
+else:
+	print(num, "is not a prime number")
+#
+
+
+
+
+num = int(input("Enter a number: "))
+i=1
+factorial = 1
+for i in range(i,num + 1):
+       factorial = factorial*i
+print(factorial)
+#
